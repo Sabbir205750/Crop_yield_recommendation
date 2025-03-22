@@ -17,3 +17,13 @@ Machine Learning (Scikit-learn, TensorFlow, or PyTorch)
 Pandas & NumPy for data processing
 Flask for web deployment 
 database storage
+
+
+Requirments:
+
+pandas==1.0.3
+Flask==1.1.1
+numpy==1.18.1
+scikit_learn==0.22.1
+gunicorn==20.0.4
+
