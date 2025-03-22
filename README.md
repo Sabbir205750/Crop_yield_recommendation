@@ -3,6 +3,7 @@
 The Crop Yield Recommendation System is a machine learning-based project that predicts crop yields based on various environmental and soil factors. This system helps farmers and agricultural stakeholders make informed decisions to optimize crop production.
 
 Features:
+
 ✅ Predicts optimal crop yield based on input data
 ✅ Uses machine learning models for accurate recommendations
 ✅ Supports multiple crop types
