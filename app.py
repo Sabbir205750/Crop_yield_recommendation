@@ -8,13 +8,6 @@ import mysql
 import stripe
 import pandas as pd
 
-
-
-
-
-
-
-
 model = pickle.load(open('f.pkl', 'rb'))
 
 
@@ -28,11 +21,6 @@ app.config['MYSQL_DB']='user_system'
 mysql=MySQL(app)
 public_key = "pk_test_6pRNASCoBOKtIshFeQd4XMUh"
 stripe.api_key = "sk_test_BQokikJOvBiI2HlWgH4olfQ2"
-
-
-    
-
-
 
 
 
@@ -88,10 +76,6 @@ def purchase():
      return redirect(url_for('thankyou'))
 
 
-
-
-  
-   
 
 @app.route('/login',methods=['GET','POST'])
 def login():
